@@ -1,0 +1,27 @@
+1) 2Sum Problem in 1 array. 
+
+Either sort it and find pairs using 2 pointers. 
+OR.
+Use map and store all elements. and for every element X, find if X-K exists.
+
+1) 2Sum Problem in 2 arrays. All elements are distinct in each of arrays.
+
+store both in different sets. Then for every element in setA, find element-K in setB.
+
+2) Sort 0,1,2
+
+keep i,j to denote end of 0 and start of 2 respectively.
+
+increase i and decrease j by traversing through the array. 
+
+3) Majority element. element which occurs > N/2 times. 
+
+take first element as major element. 
+Traverse loop anď when it occurs increase its count. When something else is found, decrease its count. 
+When count is 0, new element is current element and increase its count. At the end will have majority element stored.
+
+then traverse again, and see if its count > n/2.
+
+
+
+
